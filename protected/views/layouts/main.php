@@ -46,6 +46,7 @@
                                     <li class="upload"><a " href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/photo/upload">Upload</a></li>
                                     <li class="about"><a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/site/about">About</a></li>
                                     <li class="contact"><a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/site/contact">Contact</a></li>                             
+                                    <li class="login"><a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/site/login">Login</a></li>                             
 
                                 </ul>
                             </div>

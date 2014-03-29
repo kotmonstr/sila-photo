@@ -51,3 +51,9 @@ $this->breadcrumbs=array(
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->
+     <script>
+            window.onload = function() {
+                console.log('jquery');
+                $('.login').addClass('active');
+            };
+        </script>

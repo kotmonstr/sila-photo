@@ -1,0 +1,110 @@
+2014/03/28 21:42:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---
+2014/03/28 21:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/upload".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/upload')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/upload
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/index
+---
+2014/03/28 21:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\server\framwork-install\framework\web\CController.php:483
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\server\framwork-install\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/site/about')
+#3 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=/site/about
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/upload
+---
+2014/03/28 22:41:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---
+2014/03/28 22:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---
+2014/03/28 23:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---
+2014/03/28 23:11:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/upload".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/upload')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/upload
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/index
+---
+2014/03/28 23:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/upload".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/upload')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/upload
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/index
+---
+2014/03/28 23:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/upload".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/upload')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/upload
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/index
+---
+2014/03/28 23:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---
+2014/03/28 23:14:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---
+2014/03/28 23:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---

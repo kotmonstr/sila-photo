@@ -4,7 +4,7 @@ class NewsController extends Controller {
 
     public $news_text = 'news text';
     public $news2 = 'news2';
-
+    
     public function actionIndex() {
         $data = News::model()->findAll();
 
@@ -14,7 +14,8 @@ class NewsController extends Controller {
         ));
     }
     public function actionForm() {
-       $this->render('Form'); 
+       $data = News::model()->findAll();
+       $this->render('Form',array("data" => $data)); 
     }
 
 }

@@ -38,3 +38,9 @@ th{
 
     padding:20px;
 }
+body{
+   background-color: #2b2e32!important;
+}
+input{
+    height: 30px!important;
+}

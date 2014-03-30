@@ -15,6 +15,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/menu.css" />
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
         <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+        <?php Yii::app()->bootstrap->register(); ?>
     </head>
 
     <body>

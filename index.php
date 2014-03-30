@@ -1,5 +1,4 @@
 <?php
-
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../../framwork-install/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';

@@ -13,5 +13,8 @@ class NewsController extends Controller {
             "data" => $data
         ));
     }
+    public function actionForm() {
+       $this->render('Form'); 
+    }
 
 }

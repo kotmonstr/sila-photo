@@ -47,6 +47,7 @@
                                     <li class="about"><a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/site/about">About</a></li>
                                     <li class="contact"><a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/site/contact">Contact</a></li>                             
                                     <li class="news"><a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/news">News</a></li>                             
+                                    <li class="put news"><a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/news/form">Put news</a></li>                             
                                     <li class="login"><a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/site/login">Login</a></li>                             
 
                                 </ul>

@@ -610,3 +610,350 @@ Stack trace:
 REQUEST_URI=/index.php?r=news
 in C:\server\www\sila-photo\protected\controllers\NewsController.php (8)
 in C:\server\www\sila-photo\index.php (12)
+2014/03/30 18:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/news
+---
+2014/03/30 18:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo.view".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo.view')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo.view&id=1
+---
+2014/03/30 18:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/view".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/view')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/view&id=1
+---
+2014/03/30 20:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/news
+---
+2014/03/30 20:34:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/news
+---
+2014/03/30 20:34:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/news
+---
+2014/03/30 20:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/index
+---
+2014/03/30 20:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/upload".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/upload')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/upload
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/index
+---
+2014/03/30 20:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\server\framwork-install\framework\web\CController.php:483
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\server\framwork-install\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/site/about')
+#3 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=/site/about
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/upload
+---
+2014/03/30 20:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---
+2014/03/30 21:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/site/index
+---
+2014/03/30 21:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/upload".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/upload')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/upload
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/index
+---
+2014/03/30 21:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\server\framwork-install\framework\web\CController.php:483
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\server\framwork-install\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/site/about')
+#3 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=/site/about
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/upload
+---
+2014/03/30 21:32:19 [error] [php] Undefined variable: data (C:\server\www\sila-photo\protected\views\news\index.php:10)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(869): NewsController->renderFile()
+#1 C:\server\framwork-install\framework\web\CController.php(782): NewsController->renderPartial()
+#2 C:\server\www\sila-photo\protected\controllers\NewsController.php(14): NewsController->render()
+#3 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#6 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#8 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\views\news\index.php (10)
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (14)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:32:40 [error] [php] Undefined variable: data (C:\server\www\sila-photo\protected\views\news\index.php:10)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(869): NewsController->renderFile()
+#1 C:\server\framwork-install\framework\web\CController.php(782): NewsController->renderPartial()
+#2 C:\server\www\sila-photo\protected\controllers\NewsController.php(14): NewsController->render()
+#3 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#6 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#8 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\views\news\index.php (10)
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (14)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:32:51 [error] [php] Undefined variable: data (C:\server\www\sila-photo\protected\views\news\index.php:10)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(869): NewsController->renderFile()
+#1 C:\server\framwork-install\framework\web\CController.php(782): NewsController->renderPartial()
+#2 C:\server\www\sila-photo\protected\controllers\NewsController.php(14): NewsController->render()
+#3 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#6 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#8 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\views\news\index.php (10)
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (14)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:33:31 [error] [php] Illegal offset type (C:\server\www\sila-photo\protected\controllers\NewsController.php:15)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#1 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#2 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#3 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (15)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:33:54 [error] [php] Object of class News could not be converted to string (C:\server\www\sila-photo\protected\views\news\index.php:11)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(869): NewsController->renderFile()
+#1 C:\server\framwork-install\framework\web\CController.php(782): NewsController->renderPartial()
+#2 C:\server\www\sila-photo\protected\controllers\NewsController.php(15): NewsController->render()
+#3 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#6 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#8 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\views\news\index.php (11)
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (15)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:34:14 [error] [exception.CException] exception 'CException' with message 'Property "News.name" is not defined.' in C:\server\framwork-install\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\server\framwork-install\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\server\www\sila-photo\protected\views\news\index.php(11): CActiveRecord->__get('name')
+#2 C:\server\framwork-install\framework\web\CBaseController.php(126): require('C:\server\www\s...')
+#3 C:\server\framwork-install\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\server\www\s...', Array, true)
+#4 C:\server\framwork-install\framework\web\CController.php(869): CBaseController->renderFile('C:\server\www\s...', Array, true)
+#5 C:\server\framwork-install\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\server\www\sila-photo\protected\controllers\NewsController.php(15): CController->render('index', Array)
+#7 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#8 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\server\framwork-install\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\server\framwork-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\server\framwork-install\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/news')
+#13 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=/news
+HTTP_REFERER=http://sila-photo/index.php?r=/news
+---
+2014/03/30 21:34:47 [error] [php] Array to string conversion (C:\server\www\sila-photo\protected\views\news\index.php:10)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(869): NewsController->renderFile()
+#1 C:\server\framwork-install\framework\web\CController.php(782): NewsController->renderPartial()
+#2 C:\server\www\sila-photo\protected\controllers\NewsController.php(15): NewsController->render()
+#3 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#6 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#8 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\views\news\index.php (10)
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (15)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:34:59 [error] [php] Array to string conversion (C:\server\www\sila-photo\protected\views\news\index.php:10)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(869): NewsController->renderFile()
+#1 C:\server\framwork-install\framework\web\CController.php(782): NewsController->renderPartial()
+#2 C:\server\www\sila-photo\protected\controllers\NewsController.php(15): NewsController->render()
+#3 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#6 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#8 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\views\news\index.php (10)
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (15)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:36:07 [error] [exception.CException] exception 'CException' with message 'Property "News.name" is not defined.' in C:\server\framwork-install\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\server\framwork-install\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\server\www\sila-photo\protected\views\news\index.php(11): CActiveRecord->__get('name')
+#2 C:\server\framwork-install\framework\web\CBaseController.php(126): require('C:\server\www\s...')
+#3 C:\server\framwork-install\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\server\www\s...', Array, true)
+#4 C:\server\framwork-install\framework\web\CController.php(869): CBaseController->renderFile('C:\server\www\s...', Array, true)
+#5 C:\server\framwork-install\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\server\www\sila-photo\protected\controllers\NewsController.php(15): CController->render('index', Array)
+#7 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#8 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\server\framwork-install\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\server\framwork-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\server\framwork-install\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/news')
+#13 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=/news
+HTTP_REFERER=http://sila-photo/index.php?r=/news
+---
+2014/03/30 21:36:30 [error] [exception.CException] exception 'CException' with message 'Property "News._name" is not defined.' in C:\server\framwork-install\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\server\framwork-install\framework\db\ar\CActiveRecord.php(145): CComponent->__get('_name')
+#1 C:\server\www\sila-photo\protected\views\news\index.php(11): CActiveRecord->__get('_name')
+#2 C:\server\framwork-install\framework\web\CBaseController.php(126): require('C:\server\www\s...')
+#3 C:\server\framwork-install\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\server\www\s...', Array, true)
+#4 C:\server\framwork-install\framework\web\CController.php(869): CBaseController->renderFile('C:\server\www\s...', Array, true)
+#5 C:\server\framwork-install\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\server\www\sila-photo\protected\controllers\NewsController.php(15): CController->render('index', Array)
+#7 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#8 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\server\framwork-install\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\server\framwork-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\server\framwork-install\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/news')
+#13 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=/news
+HTTP_REFERER=http://sila-photo/index.php?r=/news
+---
+2014/03/30 21:37:03 [error] [php] Object of class News could not be converted to string (C:\server\www\sila-photo\protected\views\news\index.php:11)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(869): NewsController->renderFile()
+#1 C:\server\framwork-install\framework\web\CController.php(782): NewsController->renderPartial()
+#2 C:\server\www\sila-photo\protected\controllers\NewsController.php(15): NewsController->render()
+#3 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#6 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#8 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\views\news\index.php (11)
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (15)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:53:07 [error] [php] Undefined variable: key (C:\server\www\sila-photo\protected\views\news\index.php:11)
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CController.php(869): NewsController->renderFile()
+#1 C:\server\framwork-install\framework\web\CController.php(782): NewsController->renderPartial()
+#2 C:\server\www\sila-photo\protected\controllers\NewsController.php(15): NewsController->render()
+#3 C:\server\framwork-install\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 C:\server\framwork-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\server\framwork-install\framework\web\CController.php(286): NewsController->runAction()
+#6 C:\server\framwork-install\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 C:\server\framwork-install\framework\web\CWebApplication.php(282): NewsController->run()
+#8 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\server\www\sila-photo\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=/news
+in C:\server\www\sila-photo\protected\views\news\index.php (11)
+in C:\server\www\sila-photo\protected\controllers\NewsController.php (15)
+in C:\server\www\sila-photo\index.php (12)
+2014/03/30 21:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/upload".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/upload')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/upload
+HTTP_REFERER=http://sila-photo/index.php?r=/news
+---
+2014/03/30 21:53:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/photo/index".' in C:\server\framwork-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\server\framwork-install\framework\web\CWebApplication.php(141): CWebApplication->runController('/photo/index')
+#1 C:\server\framwork-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\server\www\sila-photo\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=/photo/index
+HTTP_REFERER=http://sila-photo/index.php?r=/photo/upload
+---

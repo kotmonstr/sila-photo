@@ -58,7 +58,7 @@
 
              
             </div>
-            <div class="container">
+            <div class="container content-center">
                 <div class="row">
                     <div class="col-lg-12">
                         <?php if (isset($this->breadcrumbs)): ?>

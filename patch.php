@@ -25,4 +25,16 @@ PRIMARY KEY(`user_id`))";
 
 mysql_query($sql,$link);
     echo "Создание таблицы user завершено.".'<br>';
+    
+$sql = "CREATE TABLE IF NOT EXISTS `news`(
+`news_id`         INT(11) NOT NULL AUTO_INCREMENT,
+`news_name`       VARCHAR(255) NOT NULL,
+`news_content`      VARCHAR(255) NOT NULL,
+
+
+
+PRIMARY KEY(`news_id`))";
+
+mysql_query($sql,$link);
+    echo "Создание таблицы news завершено.".'<br>';
 }

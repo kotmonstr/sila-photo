@@ -6,6 +6,11 @@ $this->breadcrumbs=array(
 );
 echo $news;
 echo $this->news2;
+
+foreach ($data as $row ) {
+    echo $row->news_name.'--'.$row->news_content.'<br>';
+}
+
 ?>
 <h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
 

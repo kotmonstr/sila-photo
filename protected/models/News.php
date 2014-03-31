@@ -18,4 +18,21 @@ class News extends CActiveRecord {
         return parent::model($className);
     }
 
+    public function rules() {
+            return array(
+        array('news_name,news_content', 'required'),
+   
+    );
+    }
+
+
+    public function safeAttributes() {
+        return array(
+            'news_id',
+            'news_name',
+            'news_content',
+            
+        );
+    }
+
 }

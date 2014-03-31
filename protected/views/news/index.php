@@ -1,20 +1,22 @@
-<?php
-/* @var $this NewsController */
+<table class="table-bordered table-responsive ">
+    <thead>
+    <th>#</th>
+    <th>Name</th>
+    <th>Content</th>
+</thead>
+<tbody>
+    <?php
+    $i=1;
+    foreach ($data as $row) {
+        ?><tr>
+            
+        <td><?php echo $i++?></td>
+        <td><?php echo $row->news_name;?></td>
+        <td><?php echo $row->news_content;?></td></tr>
+                   
+        
+       
+    <?php } ?>
+</tbody> 
+</table>
 
-$this->breadcrumbs=array(
-	'News',
-);
-echo $news;
-echo $this->news2;
-
-foreach ($data as $row ) {
-    echo $row->news_name.'--'.$row->news_content.'<br>';
-}
-
-?>
-<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
-
-<p>
-	You may change the content of this page by modifying
-	the file <tt><?php echo __FILE__; ?></tt>.
-</p>

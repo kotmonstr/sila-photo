@@ -13,13 +13,13 @@
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/menu.css" />
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
+    
         <title><?php echo CHtml::encode($this->pageTitle); ?></title>
-        <?php Yii::app()->bootstrap->register(); ?>
+        
     </head>
 
     <body>
-
+<?php Yii::app()->bootstrap->register(); ?>
         <div class="" id="page">
 
             <div id="header">
@@ -31,14 +31,14 @@
 
 
                     <div class="bs-component">
-                        <div class="navbar navbar-default">
+                        <div class="navbar navbar-inverse">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#">Sila-Ra Photo</a>
+                                <a class="navbar-brand" href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=/site/index">Sila-Ra Photo</a>
                             </div>
                             <div class="navbar-collapse collapse navbar-responsive-collapse">
                                 <ul class="nav navbar-nav">
